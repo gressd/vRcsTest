@@ -1,0 +1,248 @@
+{
+  "@type": "CatalogItemRequest",
+  "dateApproved": null,
+  "dateCompleted": null,
+  "dateCreated": "2017-05-12T12:14:09.330+0000",
+  "dateSubmitted": "2017-05-12T12:14:09.330+0000",
+  "description": null,
+  "id": "0a97650d-b927-40c1-a5e4-f1bc7b89da7d",
+  "iconId": "a0b46952-2525-4aaa-b6a5-9fc55b3df2b7",
+  "version": 2,
+  "lastUpdated": "2017-05-12T12:14:12.175+0000",
+  "organization": {
+    "tenantRef": "vsphere.local",
+    "tenantLabel": "vsphere.local",
+    "subtenantRef": "82cd14ac-0aa5-41c0-af04-3fd604639a0d",
+    "subtenantLabel": "Content"
+  },
+  "quote": {
+    "leasePeriod": null,
+    "leaseRate": null,
+    "totalLeaseCost": null
+  },
+  "requestCompletion": null,
+  "requestedFor": "GRESSD@amer.pfizer.com",
+  "requestedBy": "GRESSD@amer.pfizer.com",
+  "requestorEntitlementId": "ad6e510b-3855-42b5-ac07-fc6d19f0d7f7",
+  "state": "IN_PROGRESS",
+  "stateName": "In Progress",
+  "phase": "IN_PROGRESS",
+  "executionStatus": "STARTED",
+  "waitingStatus": "WAITING_FOR_PROVIDER",
+  "approvalStatus": "PRE_APPROVED",
+  "reasons": null,
+  "requestNumber": 3611,
+  "requestData": {
+        "entries": [
+      {
+        "key": "provider-unitTestConfig",
+        "value": {
+          "type": "string",
+          "value": "Default"
+        }
+      },
+      {
+        "key": "provider-packageType",
+        "value": {
+          "type": "string",
+          "value": "ASD-Blueprint"
+        }
+      },
+      {
+        "key": "provider-releasable",
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "key": "provider-testTags",
+        "value": null
+      },
+      {
+        "key": "provider-forceGroupRequest",
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "key": "provider-stopReleaseDeploymentOnFirstFailure",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-releaseComment",
+        "value": {
+          "type": "string",
+          "value": ""
+        }
+      },
+      {
+        "key": "provider-deployTestContent",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-packageVersionDesc",
+        "value": {
+          "type": "string",
+          "value": "test fix"
+        }
+      },
+      {
+        "key": "provider-__ASD_PRESENTATION_INSTANCE",
+        "value": {
+          "type": "string",
+          "value": "12f70ac0-7bc7-4288-a7d3-39c87952ea72"
+        }
+      },
+      {
+        "key": "provider-includeDependencies",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-releaseConfigElementsList",
+        "value": {
+          "type": "string",
+          "value": ""
+        }
+      },
+      {
+        "key": "provider-testConfigElementsList",
+        "value": {
+          "type": "string",
+          "value": ""
+        }
+      },
+      {
+        "key": "provider-packageNameIn",
+        "value": {
+          "type": "string",
+          "value": "VM: Memory Management"
+        }
+      },
+      {
+        "key": "provider-email",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-testContentEndpoints",
+        "value": null
+      },
+      {
+        "key": "provider-stopUnitTestsOnFirstFailure",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-stopTestDeploymentOnFirstFailure",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-emailAddress",
+        "value": {
+          "type": "string",
+          "value": "david.gress@pfizer.com"
+        }
+      },
+      {
+        "key": "provider-sourceConfigName",
+        "value": {
+          "type": "string",
+          "value": "vRA Development"
+        }
+      },
+      {
+        "key": "provider-branch",
+        "value": {
+          "type": "string",
+          "value": "master"
+        }
+      },
+      {
+        "key": "provider-mock",
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "key": "provider-test",
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "key": "provider-capture",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-releaseTags",
+        "value": null
+      },
+      {
+        "key": "provider-runTests",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "key": "provider-releaseContentEndpoints",
+        "value": null
+      },
+      {
+        "key": "provider-versionIn",
+        "value": null
+      },
+      {
+        "key": "provider-release",
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "key": "provider-trackingId",
+        "value": null
+      }
+    ]
+  },
+  "preApprovalId": null,
+  "postApprovalId": null,
+  "retriesRemaining": 3,
+  "requestedItemName": "Single Package Request",
+  "requestedItemDescription": "Capture, test, and release a single content package.",
+  "catalogItemRef": {
+    "id": "a0b46952-2525-4aaa-b6a5-9fc55b3df2b7",
+    "label": "Single Package Request"
+  },
+  "catalogItemProviderBinding": {
+    "bindingId": "vsphere.local!::!9d6510ad-24a6-4f0c-adc8-736cc3e99d77",
+    "providerRef": {
+      "id": "677d9eae-0f7e-4a5c-a1d7-ed539de8f357",
+      "label": "XaaS"
+    }
+  }
+}
+
